@@ -31,3 +31,22 @@ func Max(x, y float64) float64 {
 func Min(x, y float64) float64 {
 	return math.Min(x, y)
 }
+
+func Abs(x float64) float64 {
+    return math.Abs(x)
+}
+
+// Acos возвращает арккосинус числа
+func Acos(x float64) float64 {
+    return math.Acos(x)
+}
+
+// Acosh возвращает гиперболический арккосинус числа
+func Acosh(x float64) float64 {
+    return math.Acosh(x)
+}
+
+// Asin возвращает арксинус числа
+func Asin(x float64) float64 {
+    return math.Asin(x)
+}
