@@ -52,5 +52,5 @@ func Asin(x float64) float64 {
 }
 
 func Yn(n int, x float64) float64 {
-	return math.Yn(x)
+	return math.Yn(n, x)
 }
